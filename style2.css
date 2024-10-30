@@ -1,0 +1,343 @@
+@font-face {
+    font-family: Rubik-medium;
+    src: url(../fonts/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: rubik;
+    src: url(./fonts/Bounty.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(76, 76, 255) 35%, rgb(248, 251, 255) 100%);
+}
+
+
+h1 {
+    text-align: center;
+    color: #3600e9;
+}
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3.1rem;
+}
+h3 {
+    text-align: center;
+    color: #1548ff;
+    font-size: 3.1rem;
+}
+
+.p1{
+    color: #ffffff;
+    font-size: 26px;
+}
+p, a {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+header {
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 30px;
+ 
+
+}
+
+
+.logo-wrapper img{
+    width: 70px;
+    padding-left: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-right: 70px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 5, 163);
+    margin-left: 70px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.slideshow {
+    position: relative;
+    text-align: center;
+}
+
+.slideshow img {
+    width: 53%;
+    height: 650px;
+
+    object-fit: cover;
+}
+
+.slide-text {
+    position: absolute;
+    font-size: 1.3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+
+}
+
+
+.sl-text{
+    margin: auto;
+    text-align: center;
+}
+.about, .brand, .testimonials, .contact {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+  /*  background-color: rgb(173, 166, 255);*/
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+}
+.location_icon {
+    
+    padding: 0px; 
+    max-width: 200px; 
+    margin: auto; 
+   
+}
+
+.location_icon ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.location_icon li {
+    display: flex; 
+    align-items: center; 
+    padding: 10px 0; 
+    font-size: 17px;
+}
+
+.location_icon img {
+    width: 27px;
+    margin-right: 10px; 
+}
+
+ul.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px 0; 
+}
+
+ul.social-icons li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+ul.social-icons li:last-child {
+    padding-right: 0; 
+}
+
+ul.social-icons li a {
+    display: flex; 
+    align-items: center; 
+  
+}
+.social-icons img{
+    width: 37px;
+}
+
+
+.slideshow2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background: rgb(255, 255, 255);
+background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(76, 76, 255) 35%, rgb(248, 251, 255) 100%);
+    position: relative; /* For positioning images */
+  }
+  
+  .slide2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%; 
+    max-width: 1000px;
+    padding: 30px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .slide2-text {
+    text-align: center;
+  }
+  
+  .slide2-text h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .slide2-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  .history-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px; /* Space between images */
+  }
+  
+  .history {
+    max-width: 300px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    h2, h3 {
+        font-size: 1.5rem; 
+    }
+.p1{
+    font-size: 1rem;
+}
+
+    nav ul {
+        flex-direction: column; 
+        padding-right: 0; 
+    }
+
+    nav ul li a {
+        margin-left: 0; 
+        font-size: 20px; 
+    }
+
+    .slideshow img {
+        height: 300px; 
+    }
+
+    .slide-text {
+        width: 90%; 
+    }
+
+    .products1, .products2 {
+        flex-direction: column; 
+    }
+
+    .brand .product {
+        width: 100%; 
+        height: auto; 
+    }
+
+    footer {
+        padding: 10px;
+    }
+    .logo-wrapper{
+        width: 50px;
+        padding-left: 0px;
+    }
+
+/* Стили для бургер-меню */
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger span {
+    height: 4px;
+    width: 30px;
+    background: rgb(0, 5, 163);
+    margin: 4px 0;
+}
+
+
+nav {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-right: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 5, 163);
+    margin-left: 70px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger span {
+    height: 4px;
+    width: 30px;
+    background: rgb(173, 166, 255);
+    margin: 4px 0;
+}
+
+
+nav {
+    display: none;
+}
+
+
+    .burger {
+        display: flex;
+    }
+    nav.active {
+        display: block;
+        position: absolute;
+        top: 60px; 
+        left: 0;
+        right: 0;
+        background-color: rgb(30, 109, 237);
+        background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(76, 76, 255) 100%);
+        z-index: 10;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+}
