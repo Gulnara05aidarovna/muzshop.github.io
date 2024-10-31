@@ -230,7 +230,9 @@ background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(76, 76, 255) 35%, 
 .p1{
     font-size: 1rem;
 }
-
+.p{
+    font-size: 0.7rem;
+}
     nav ul {
         flex-direction: column; 
         padding-right: 0; 
