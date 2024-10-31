@@ -263,7 +263,15 @@ button:hover {
     .slide-text {
         width: 90%; 
     }
-
+    .product-image {
+        transition: transform 0.3s, scale 0.3; /* Add transitions for smooth effects */
+      }
+      
+      .product-image:hover {
+        transform: rotate(0deg); /* Rotate on hover */
+        scale: 0.9;
+      }
+    
     .products1, .products2 {
         flex-direction: column; 
     }
