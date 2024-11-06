@@ -1,3 +1,5 @@
-User-agent: *
-Allow:  /*.css$
+   User-agent: *
+   Disallow:
+   
+
 Sitemap: https://gulnara05aidarovna.github.io/muzshop.github.io/sitemap.xml
