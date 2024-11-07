@@ -1,5 +1,4 @@
 User-agent: *
-Crawl-delay: 1
-Host: https://gulnara05aidarovna.github.io/muzshop.github.io/
-Sitemap: http://https://gulnara05aidarovna.github.io/muzshop.github.io/
+Allow: 
+Sitemap: http://https://gulnara05aidarovna.github.io/sitemap.xml
 
