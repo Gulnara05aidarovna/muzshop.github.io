@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /
 Sitemap: http://https://gulnara05aidarovna.github.io/sitemap.xml
 
