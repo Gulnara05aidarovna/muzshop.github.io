@@ -1,3 +1,3 @@
 User-agent: *
 Allow:
-Sitemap: https://gulnara05aidarovna.github.io/sitemap.xml
+Sitemap: https://gulnara05aidarovna.github.io/muzshop.github.io/sitemap.xml
